@@ -1,0 +1,1 @@
+Aquí van los datos originales y datos_limpios.csv, que se crea al final del cuaderno.
