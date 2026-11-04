@@ -68,7 +68,6 @@ if ocupacion != "Todas":
 
 filtrados = filtrados[(filtrados["minutos_web"] >= minutos[0]) & (filtrados["minutos_web"] <= minutos[1])]
 
-st.write("Con estos filtros quedan", len(filtrados), "contactos.")
 
 
 # Paso 5. Si no queda nada
@@ -81,7 +80,6 @@ if len(filtrados) == 0:
 # Paso 6. Las métricas
 # 6.1 Tres métricas en columnas, con los números más importantes para tu pregunta.
 
-st.write("Con estos filtros quedan", len(filtrados), "contactos.")
 col1, col2, col3 = st.columns(3)
 
 col1.metric("Contactos", len(filtrados))
